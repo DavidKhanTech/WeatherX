@@ -9,6 +9,7 @@ WeatherX is a weather fashion app that shows you the weather based on your locat
 
 # API and Data Sample
 Geolocation API
+
 OpenWeatherMap API
 
 # API Data Sample
