@@ -23,7 +23,9 @@ https://ibb.co/fGcZW2D
 
 # MVP/PostMVP 
 1. Pull Weather Data
+
 2. Add Clothing Conditions
+
 3. Add Geo Locations
 
 # MVP
@@ -32,6 +34,7 @@ Pull Weather Data
 
 # PostMVP
 Add Clothing Condition
+
 Add Geo Locations
 
 
@@ -58,6 +61,7 @@ Monday, 6/15	Present	Project!
 
 
 # Priority Matrix
+
 1. Structure Html and basic CSS design
 
 
@@ -65,6 +69,7 @@ Monday, 6/15	Present	Project!
 
 
 3. Connect API for Location
+
 
 # Timeframes
 
