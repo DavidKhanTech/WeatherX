@@ -4,10 +4,20 @@ A weather fashion app that shows you the weather and recommends stylish clothes 
 https://IWillAddThisWeatherXLinkLater.com/placeholder
 
 # Project Description
-WeatherX is a weather fashion app that shows you the weather based on your location and recommends stylish clothes for you to wear according to the temperature outside. You will never have to worry about what to wear! 
+
+WeatherX is the best way to shop effortlessly for your real everyday weather. 
+
+WeatherX not only shows you the weather but recommends the hottest styles for you to wear based on your real
+environment.
+
+WeatherX can potentially be a new way for companies to advertise
+
+WeatherX is at the beginning is currently concept stage of an app with great potential
+and is accepting angel investors.
 
 
 # API and Data Sample
+
 Geolocation API
 
 OpenWeatherMap API
@@ -16,6 +26,19 @@ Fetch API
 
 # API Data Sample
 
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+    <meta  http-equiv=Expires content="Tue, Sep 20 2018 15:27:22 GMT">
+    <meta http-equiv="Last-Modified" content="Tue, Sep 20 2018 15:27:22 GMT">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="weather, world, Openstreetmap, forecast, Openweather, current" >
+    <meta name="description" content="Simple and fast and free weather API from OpenWeatherMap you have access to current weather data, hourly, 5- and 16-day forecasts. Historical weather data for 40 years back for any coordinate. Weather maps, UV Index, air pollution
+ and historical data" >
+    <meta name="author" content="OpenWeatherMap.org">
+    <meta name="domain" content="OpenWeatherMap.org" >        
+    <meta name="p:domain_verify" content="34fe229eab8562dca90f4a5962ff80a9"/>
+    <meta property="title" content="Weather API" />            
 
 
 
