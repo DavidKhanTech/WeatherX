@@ -27,18 +27,35 @@ Fetch API
 # API Data Sample
 
 
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
-    <meta  http-equiv=Expires content="Tue, Sep 20 2018 15:27:22 GMT">
-    <meta http-equiv="Last-Modified" content="Tue, Sep 20 2018 15:27:22 GMT">
-    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="weather, world, Openstreetmap, forecast, Openweather, current" >
-    <meta name="description" content="Simple and fast and free weather API from OpenWeatherMap you have access to current weather data, hourly, 5- and 16-day forecasts. Historical weather data for 40 years back for any coordinate. Weather maps, UV Index, air pollution
- and historical data" >
-    <meta name="author" content="OpenWeatherMap.org">
-    <meta name="domain" content="OpenWeatherMap.org" >        
-    <meta name="p:domain_verify" content="34fe229eab8562dca90f4a5962ff80a9"/>
-    <meta property="title" content="Weather API" />            
+var data = {
+"resource": {
+  "version":"1",
+  
+  "macros":[{
+      "function":"__e"
+    },{
+      "function":"__cid"
+    }],
+  "tags":[{
+      "function":"__rep",
+      "once_per_event":true,
+      "vtp_containerId":["macro",1],
+      "tag_id":1
+    }],
+  "predicates":[{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"gtm.js"
+    }],
+  "rules":[
+    [["if",0],["add",0]]]
+},
+"runtime":[]
+
+
+
+
+};
 
 
 
