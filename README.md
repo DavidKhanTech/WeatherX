@@ -24,6 +24,18 @@ OpenWeatherMap API
 
 # API Data Sample
 
+Geolocation
+
+coords: GeolocationCoordinates
+  accuracy: 8979
+  altitude: null
+  altitudeAccuracy: null
+  heading: null
+  latitude: 37.348352
+  longitude: -71.3344
+
+
+Weather
 
 var data = {
 "resource": {
@@ -49,8 +61,6 @@ var data = {
     [["if",0],["add",0]]]
 },
 "runtime":[]
-
-
 
 
 };
