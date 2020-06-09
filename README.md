@@ -37,34 +37,47 @@ coords: GeolocationCoordinates
 
 Weather
 
-var data = {
-"resource": {
-  "version":"1",
-  
-  "macros":[{
-      "function":"__e"
-    },{
-      "function":"__cid"
-    }],
-  "tags":[{
-      "function":"__rep",
-      "once_per_event":true,
-      "vtp_containerId":["macro",1],
-      "tag_id":1
-    }],
-  "predicates":[{
-      "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"gtm.js"
-    }],
-  "rules":[
-    [["if",0],["add",0]]]
-},
-"runtime":[]
-
-
-};
-
+{
+  "coord": {"lon": -122.08,"lat": 37.39},
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 282.55,
+    "feels_like": 281.86,
+    "temp_min": 280.37,
+    "temp_max": 284.26,
+    "pressure": 1023,
+    "humidity": 100
+  },
+  "visibility": 16093,
+  "wind": {
+    "speed": 1.5,
+    "deg": 350
+  },
+  "clouds": {
+    "all": 1
+  },
+  "dt": 1560350645,
+  "sys": {
+    "type": 1,
+    "id": 5122,
+    "message": 0.0139,
+    "country": "US",
+    "sunrise": 1560343627,
+    "sunset": 1560396563
+  },
+  "timezone": -25200,
+  "id": 420006353,
+  "name": "Mountain View",
+  "cod": 200
+}
 
 
 # Wireframes
@@ -95,10 +108,10 @@ Day	Deliverable	Status
 Monday, 6/8	Project plan; Project approval	
 
 
-Tuesday, 6/9	Whiteboard functionality: Structure and design (HTML & CSS)	
+Tuesday, 6/9	Whiteboard functionality: Structure and Design (HTML & CSS)	
 
 
-Wednesday, 6/10	Code for request from API and record for location	
+Wednesday, 6/10	Code for request from API Weather	and Clothing 
 
 
 Thursday, 6/11	Code functionality to request weather data based on location and code functionality to display final result	
