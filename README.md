@@ -22,8 +22,6 @@ Geolocation API
 
 OpenWeatherMap API
 
-Fetch API
-
 # API Data Sample
 
 
