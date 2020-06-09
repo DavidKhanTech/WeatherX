@@ -1,1 +1,26 @@
 
+:root {
+  font-size: calc(1vw + 1vh + .5vmin);
+}
+
+body {
+  font: 1rem/1.6 sans-serif;
+  max-height: 600px;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  color: white;
+  width: 50%;
+  padding: 100px;
+  margin: auto;
+}
+
+p {
+  padding: 20px;
+}
+
+
+img {
+  display: center;
+  max-height: 170px;
+}
