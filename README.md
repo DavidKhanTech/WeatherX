@@ -5,15 +5,15 @@ https://IWillAddThisWeatherXLinkLater.com/placeholder
 
 # Project Description
 
-WeatherX is the best way to shop effortlessly for your real everyday weather. 
+WeatherX is the best way to shop effortlessly for your realtime everyday weather. 
 
 WeatherX not only shows you the weather but recommends the hottest styles for you to wear based on your real
 environment.
 
 WeatherX can potentially be a new way for companies to advertise
 
-WeatherX is at the beginning is currently concept stage of an app with great potential
-and is accepting angel investors.
+WeatherX is currently at it's concept stage of an app with great potential
+and is currently accepting angel investors.
 
 
 # API and Data Sample
