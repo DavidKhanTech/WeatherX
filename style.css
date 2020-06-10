@@ -41,6 +41,7 @@ img {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+
 }
 
 #btn:hover {
@@ -58,4 +59,20 @@ p {
   padding: 0;
   margin: 0;
 
+}
+
+input {
+  height: 25px;
+  width: 180px;
+}
+
+#srchBtn {
+  width: 190px;
+  height: 30px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
 }

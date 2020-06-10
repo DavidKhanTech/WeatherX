@@ -5,7 +5,7 @@ const apiKey = "07f242a168c1acc0be2f290d6b332cde"
 
 const searchButton = document.querySelector('.searchButton');
 const cityText = document.querySelector('input');
-const city = document.querySelector('.city');
+const searchTerm = document.querySelector('.city');
 const temp = document.querySelector('.temp');
 
 async function getTheWeather() {
