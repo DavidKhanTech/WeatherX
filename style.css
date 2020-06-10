@@ -2,12 +2,13 @@
   font-size: calc(1vw + 1vh + .5vmin);
 }
 
-
 body {
   font: 1rem/1.6 'Orbitron', sans-serif;
   max-height: 600px;
   text-align: center;
-  background-image: url("https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("https://i.pinimg.com/736x/f9/d9/0d/f9d90da77997063492a7214e862a2d83.jpg");
+  height: 100%;
+  width: auto;
   background-size: cover;
   color: white;
   width: 50%;

@@ -1,6 +1,6 @@
 //-----------------------API JS---------------------------------------//
 
-const DOMAIN = "api.openweathermap.org/data/2.5/weather?zip=11374,us";
+const DOMAIN = "api.openweathermap.org/data/2.5/weather?q=NewYork,ny&APPID=";
 const apiKey = "07f242a168c1acc0be2f290d6b332cde"
 
 const searchButton = document.querySelector('.searchButton');
