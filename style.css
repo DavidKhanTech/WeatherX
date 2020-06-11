@@ -32,6 +32,7 @@ img {
 #btn {
   display: inline-block;
   padding: 25px 25px;
+  margin: 30px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;
