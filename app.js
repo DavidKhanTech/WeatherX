@@ -1,16 +1,17 @@
 //-----------------------API JS---------------------------------------//
+const searchButton = document.querySelector('#srchBtn');
+// const cityInput = document.querySelector('input');
+const zipCode = document.querySelector('.zip');
+// const temp = document.querySelector('.temp');
 
-const DOMAIN = "http://api.openweathermap.org/data/2.5/weather?q=NewYork,ny&APPID=";
+const value = zipCode.value
+
+const DOMAIN = `http://api.openweathermap.org/data/2.5/weather?zip=80111`;
 const apiKey = "07f242a168c1acc0be2f290d6b332cde"
 
-const searchButton = document.querySelector('.searchButton');
-const cityText = document.querySelector('input');
-const searchTerm = document.querySelector('.city');
-const temp = document.querySelector('.temp');
-
-async function getTheWeather() {
-
-  let response = await axios.get(`${DOMAIN}${cityText.input}&units=imperial&appid=${apiKey}`);
+async function getTheWeather(e) {
+  e.preventDefault()
+  let response = await axios.get(`${DOMAIN}&units=imperial&appid=${apiKey}`);
   console.log(response)
 
   //   let cityTemp = response.data.city.temp
@@ -19,11 +20,5 @@ async function getTheWeather() {
 }
 
 searchButton.addEventListener('click', getTheWeather)
-
-//-----------------Hidden-------------
-$(document).ready(function () {
-  // Hide the div
-  $(".showMe").hide();
-  // Show the div after 5s
-  $(".showMe").delay(5000).fadeIn(100);
-});
+console.log(zipCode.value)
+console.log(zipCode)
