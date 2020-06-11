@@ -24,8 +24,8 @@ async function getTheWeather(e) {
 searchButton.addEventListener('click', getTheWeather)
 
 //------------------ Clothing Advertisements -------------------------\\
-let coldClothes = ""
-let hotClothes = ""
+let coldClothes = "cold out here"
+let hotClothes = "hot as F$%k"
 
 if (temp <= 59) {
   console.log(coldClothes)
