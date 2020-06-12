@@ -110,7 +110,7 @@ Monday, 6/15 Present Project!
 
 1. Structure Html and basic CSS design
 
-2) Connect API for Weather
+2. Connect API for Weather
 
 3. Connect Clothing recommendations
 

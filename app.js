@@ -3,6 +3,7 @@ const searchButton = document.querySelector('#srchBtn');
 const zipCode = document.querySelector('.zip');
 const weather = document.querySelector('.weather')
 const apiKey = "07f242a168c1acc0be2f290d6b332cde"
+const hiddenDiv = document.querySelector('#hideMe')
 
 async function getTheWeather(e) {
   e.preventDefault()
@@ -19,16 +20,12 @@ async function getTheWeather(e) {
   let textTemp = document.createTextNode(temp + " ° F" + " " + condition);
   weather.append(showTemp)
   showTemp.append(textTemp)
+  setTimeout("showIt()", 3000);
 }
 
 searchButton.addEventListener('click', getTheWeather)
 
 //------------------ Clothing Advertisements -------------------------\\
-let coldClothes = "cold out here"
-let hotClothes = "hot as F$%k"
-
-if (temp <= 59) {
-  console.log(coldClothes)
-} else {
-  console.log(hotClothes)
+function showIt() {
+  hiddenDiv.style.visibility = "visible";
 }
