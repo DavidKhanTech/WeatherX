@@ -6,8 +6,6 @@ https://IWillAddThisWeatherXLinkLater.com/placeholder
 
 # Project Description
 
-Having to plan out what to wear takes forever, and if the weather isn't what you thought, you're stuck in an ugly sweater.
-
 Want to know the weather and what to wear according to zip code?
 
 Would you like fashion tips for that specific vacation location.
