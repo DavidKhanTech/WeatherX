@@ -119,9 +119,9 @@ HTML Structure Estimated: 5hr Actual: 3hr
 
 Basic CSS Styles Estimated: 5hr Actual: 7hr
 
-Code API to check weather Estimated: 10hr Actual: 10
+Code API to check weather Estimated: 10hr Actual: 10hr
 
-Code if else with img src's of outfits's Estimated: 5hr Actual:4
+Code if else with img src's of outfits's Estimated: 5hr Actual:4hr
 
 Total Hours- Estimated: 40hr Actual: 24hr
 
