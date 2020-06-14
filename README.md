@@ -6,22 +6,23 @@ https://IWillAddThisWeatherXLinkLater.com/placeholder
 
 # Project Description
 
-Do you want to check the weather and pick out your clothes at the same time without having to
-overthink what to wear that day?
+Having to plan out what to wear takes forever, and if the weather isn't what you thought, you're stuck in an ugly sweater.
 
-Maybe you are going on vacation and would like tips on what to wear?
+Want to know the weather and what to wear according to zip code?
+
+Would you like fashion tips for that specific vacation location.
 
 WeatherX has the solution.
 
-Realtime weather data is used for your everyday fashion needs.
+WeatherX is using Realtime weather data for your everyday fashion needs.
 
 WeatherX checks the weather for any zip code and then recommends what to wear based on the weather conditions.
 
 WeatherX can potentially be a new way to advertise or used for eCommerce
 
-WeatherX is currently at its concept stage of an app with great potential
+Nowadays, people barely have time to go out and shop for clothes.
 
-and is presently accepting angel investors.
+WeatherX is currently at its concept stage with great potential and is presently accepting angel investors.
 
 # API and Data Sample
 
@@ -116,24 +117,33 @@ Monday, 6/15 Present Project!
 
 # Timeframes
 
-HTML Structure Estimated: 5 Actual:
+HTML Structure Estimated: 5hr Actual: 3hr
 
-Basic CSS Styles Estimated: 5 Actual:
+Basic CSS Styles Estimated: 5hr Actual: 7hr
 
-Category Buttons Estimated: 5 Actual:
+Code API to check weather Estimated: 10hr Actual: 10
 
-Code API to check location Estimated: 10 Actual:
+Code if else with img src's of outfits's Estimated: 5hr Actual:4
 
-Code API to check weather Estimated: 10 Actual:
-
-Code if else with img src's of outfits's Estimated: 5 Actual:
-
-Total Hours- Estimated: 40hr Actual:
+Total Hours- Estimated: 40hr Actual: 24hr
 
 # Code Snippet
 
+//-----Variable temp holds response Data from API-----//
+
+let temp = response.data.main.temp
+let condition = response.data.weather[0].main
+
+let showTemp = document.createElement("h2")
+let textTemp = document.createTextNode(temp + " ° F" + " " + condition);
+weather.append(showTemp)
+showTemp.append(textTemp)
+setTimeout("showIt()", 3000);
+}
+
 # Change Log
 
-I originally wanted to have the weather checked instantly, but then I realized if someone wants to
-check for a different location, that would not be possible, so I changed the data to pull using a zip
+I originally wanted to have the weather checked instantly using
+another Geo Location API, but then I realized if someone wants to
+check for a different location that would not be possible, so I changed the data to pull using a zip
 code.
