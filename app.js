@@ -9,6 +9,14 @@ async function getTheWeather(e) {
   e.preventDefault()
   const DOMAIN = `http://api.openweathermap.org/data/2.5/weather?zip=${zipCode.value}`;
   let response = await axios.get(`${DOMAIN}&units=imperial&appid=${apiKey}`);
+
+  if (location.protocol === 'http:') {
+    url = 'http://api.openweathermap.org/data/2.5/weather?zip=';
+  } else {
+    url = 'https://api.openweathermap.org/data/2.5/weather?zip=';
+  }
+
+
   // console.log(response)
 
   //-----Variable temp holds response Data from API
